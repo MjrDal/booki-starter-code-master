@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -19,8 +19,8 @@
         <header>
             <img src="images/logo/Booki.png" alt="">
             <nav class="header-nav">
-                <a href="#" class="header-link active">Hébergements</a>
-                <a href="#" class="header-link">Activités</a>
+                <a href="#link_hebergement" class="header-link active">Hébergements</a>
+                <a href="#link_activite" class="header-link">Activités</a>
             </nav>
         </header>
         <main>
@@ -43,19 +43,19 @@
                         <div class="info-groupe__filtre__btn">
                             <button type="button" class="filtre">
                                 <i class="fa-solid fa-money-bill-wave"></i>
-                                <p>Economique</p>
+                                <span>Economique</span>
                             </button>
                             <button type="button" class="filtre">
                                 <i class="fa-solid fa-person"></i>
-                                <p>Familial</p>
+                                <span>Familial</span>
                             </button>
                             <button type="button" class="filtre">
                                 <i class="fa-solid fa-heart"></i>
-                                <p>Romantique</p>
+                                <span>Romantique</span>
                             </button>
                             <button type="button" class="filtre">
                                 <i class="fa-solid fa-fire"></i>
-                                <p>Nos pépites</p>
+                                <span>Nos pépites</span>
                             </button>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                 </section>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="link_hebergement">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -256,50 +256,50 @@
                     </div>
                 </section>
             </div>
-            <div class="activite">
+            <div class="activite" id="link_activite">
                 <div class="activite-title">
                     <h2>Activités à Marseille</h2>
                 </div>
                 <div class="activite-cards">
                     <a href="#">
-                        <article class="activite-card">
+                        <div class="activite-card">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Image du port de marseille">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <p class="card-subtitle">Vieux-Port</p>
                                 </div>
                             </div>
-                        </article>
+                        </div>
                     </a>
                     <a href="#">
-                        <article class="activite-card">
+                        <div class="activite-card">
                             <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <p class="card-subtitle">Fort de Pomègues</p>
                                 </div>
                             </div>
-                        </article>
+                        </div>
                     </a>
                     <a href="#">
-                        <article class="activite-card">
+                        <div class="activite-card">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <p class="card-subtitle">Parc national des Calanques</p>
                                 </div>
                             </div>
-                        </article>
+                        </div>
                     </a>
                     <a href="#">
-                        <article class="activite-card">
+                        <div class="activite-card">
                             <img src="./images/activites/florian-wehde.jpg" alt="Image du Notre-Dame-de-la-Garde">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <p class="card-subtitle">Notre-Dame-de-la-Garde</p>
                                 </div>
                             </div>
-                        </article>
+                        </div>
                     </a>
                 </div>
             </div>

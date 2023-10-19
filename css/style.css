@@ -209,9 +209,9 @@ header img{
     margin-right: 10px;
 }
 
-.filtre p{
+.filtre span{
     color: black;
-    font-size: 1.rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
