@@ -515,6 +515,14 @@ footer{
         justify-content: space-between;
     }
 
+    .info-groupe__recherche i{
+        flex-shrink: 0;
+    }
+
+    .info-groupe__recherche input{
+        width: 100%;
+    }
+
     .button-rechercher{
         display: none;
     }
