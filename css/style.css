@@ -15,13 +15,9 @@
     color: var(--main-color);
 }
 
-body {
-    /* display: flex;
-    align-items: center; */
-}
-
 .main-container {
     max-width: 1440px;
+    margin: auto;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -478,18 +474,22 @@ footer{
         gap: 0;
     }
     .header-nav a.active{
+        height: 34px;
         border-top: none;
         border-bottom: 2px solid var(--main-color);
     }
 
     .header-nav a{
+        height: 34px;
         border-bottom: 2px solid var(--main-bg-color);
         text-align: center;
     }
 
     .header-link{
-        width: 100%;
+        width: 100%; 
     }
+
+    
 
     /****** recherche ***********/
 
@@ -513,10 +513,6 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    .info-groupe__recherche input{
-        padding: 0 65px 0 24px;
     }
 
     .button-rechercher{
